@@ -3,7 +3,7 @@ import React from 'react'
 export default function About() {
     return (
         <div>
-            <section className="bg-light about-page" id="about">
+            <section>
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-9 text-center">

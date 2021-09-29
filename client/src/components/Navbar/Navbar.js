@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { Toolbar, AppBar, Typography, Button } from '@material-ui/core';
 import useStyles from './style';
-
+import Sign from './image/GolfandBounce.jpeg';
 function Navbar () {
     const classes = useStyles();
     return(
@@ -10,7 +10,9 @@ function Navbar () {
         <AppBar className={classes.appBar} position="static" color="inherit">
             <div className={classes.brandContainer}>
                 <Button component={Link} to="/">
-                <a className="navbar-brand text-warning" href="/">Golf and Bounce</a>
+                <a className="navbar-brand text-warning" href="/">
+                    <img className={classes.icon} alt="sign" src={Sign} />
+                    </a>
                 </Button>
             </div>
             <div>

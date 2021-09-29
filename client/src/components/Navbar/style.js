@@ -59,4 +59,8 @@ roundedPic: {
   marginTop: '20px',
   alignSelf: 'center'
 },
+icon: {
+  width: '100px',
+  height: '50px',
+}
 }));
