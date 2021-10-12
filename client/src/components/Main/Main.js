@@ -7,33 +7,30 @@ import BirthdayParty from './images/birthdayparty.JPG';
 
 function Main() {
     return (
-        <div>
-            <div className="row justify-content-center">
-            <div className="card col-sm-4">
-                <img src={BlowupSlide} className="card-img-top" alt="golfandbounce" />
-                <div className="card-body">
-                    <h5 className="card-title">Have fun with Blowup Slides</h5>
+        <div className="container mt-5 mb-5">
+            <div id="carouselExampleInterval" className="carousel slide mt-3" data-ride="carousel">
+                <div className="carousel-inner">
+                    <div className="carousel-item active" data-interval="10000">
+                        <img src={BlowupSlide} className="pic d-block w-75 border border-danger rounded" alt="blow" />
+                    </div>
+                <div className="carousel-item" data-interval="2000">
+                    <img src={HorseRide} className="pic d-block w-50 rounded border border-warning" alt="horse" />
+                </div>
+                <div className="carousel-item">
+                    <img src={BirthdayParty} className="pic d-block w-50 rounded border border-dark" alt="birthday" />
+                </div>
+                <div className="carousel-item">
+                    <img src={MiniGolf} className="pic d-block w-50 rounded border border-primary" alt="golf" />
                 </div>
             </div>
-            <div className="card col-sm-4">
-                <img src={HorseRide} className="card-img-top" alt="golfandbounce" />
-                <div className="card-body">
-                    <h5 className="card-title">Ride the happiness</h5>
-                </div>
-            </div>
-            </div>
-            <div className="row justify-content-center">
-            <div className="card col-sm-4">
-                <img src={MiniGolf} className="card-img-top" alt="golfandbounce" />
-                <div className="card-body">
-                    <h5 className="card-title">Challenge to your folks!</h5>
-                </div>
-            </div><div className="card col-sm-4">
-                <img src={BirthdayParty} className="card-img-top" alt="golfandbounce" />
-                <div className="card-body">
-                    <h5 className="card-title">Schedule a Birthday Party!</h5>
-                </div>
-            </div>
+            <a className="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span className="sr-only"></span>
+            </a>
+            <a className="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <span className="sr-only"></span>
+            </a>
             </div>
         </div>
     )

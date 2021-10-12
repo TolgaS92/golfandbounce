@@ -11,7 +11,7 @@ function Navbar () {
             <div className={classes.brandContainer}>
                 <Button component={Link} to="/">
                 <a className="navbar-brand text-warning" href="/">
-                    <img className={classes.icon} alt="sign" src={Sign} />
+                    <img className={classes.icon} alt="sign" src={Sign} /> Golf and Bounce
                     </a>
                 </Button>
             </div>
