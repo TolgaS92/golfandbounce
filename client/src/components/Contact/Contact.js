@@ -29,10 +29,10 @@ function Contact () {
                     <div className="col-lg-6 text-center">
                     <div className="jumbotron jumbotron-fluid mb-5 bg-light rounded p-3 m-3">
                         <div className="container">
-                            <h1 className="display-4">Get In Touch</h1>
-                            <p className="lead"><strong>Location:</strong> Inside Flatiron Crossing Mall</p>
-                            <p className="lead">1 West Flatiron Crossing Dr. #1122, Broomfield, CO 80021<br></br><span>(Next to California Pizza Kitchen)</span></p>
-                            <p className="lead"><strong>Phone:</strong> 333-333-3333</p>
+                            <h1 className="display-4 text-dark">Get In Touch</h1>
+                            <p className="lead text-dark"><strong>Location:</strong> Inside Flatiron Crossing Mall</p>
+                            <p className="lead text-dark">1 West Flatiron Crossing Dr. #1122, Broomfield, CO 80021<br></br><span>(Next to California Pizza Kitchen)</span></p>
+                            <p className="lead text-dark"><strong>Phone:</strong> 333-333-3333</p>
                         </div>
                     </div>
                     <div className="d-flex justify-content-center mb-3">
