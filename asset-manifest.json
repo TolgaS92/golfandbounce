@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/golfandbounce/static/css/main.2dfb8f62.chunk.css",
+    "main.js": "/golfandbounce/static/js/main.d60968c5.chunk.js",
+    "main.js.map": "/golfandbounce/static/js/main.d60968c5.chunk.js.map",
+    "runtime-main.js": "/golfandbounce/static/js/runtime-main.6089f2e4.js",
+    "runtime-main.js.map": "/golfandbounce/static/js/runtime-main.6089f2e4.js.map",
+    "static/css/2.f2512455.chunk.css": "/golfandbounce/static/css/2.f2512455.chunk.css",
+    "static/js/2.95ac10cb.chunk.js": "/golfandbounce/static/js/2.95ac10cb.chunk.js",
+    "static/js/2.95ac10cb.chunk.js.map": "/golfandbounce/static/js/2.95ac10cb.chunk.js.map",
+    "index.html": "/golfandbounce/index.html",
+    "static/css/2.f2512455.chunk.css.map": "/golfandbounce/static/css/2.f2512455.chunk.css.map",
+    "static/css/main.2dfb8f62.chunk.css.map": "/golfandbounce/static/css/main.2dfb8f62.chunk.css.map",
+    "static/js/2.95ac10cb.chunk.js.LICENSE.txt": "/golfandbounce/static/js/2.95ac10cb.chunk.js.LICENSE.txt",
+    "static/media/GolfandBounce.38c1111d.jpeg": "/golfandbounce/static/media/GolfandBounce.38c1111d.jpeg",
+    "static/media/birthdayparty.1147f278.JPG": "/golfandbounce/static/media/birthdayparty.1147f278.JPG",
+    "static/media/blowupslide.ec38043d.JPG": "/golfandbounce/static/media/blowupslide.ec38043d.JPG",
+    "static/media/horseride.840d7bd0.JPG": "/golfandbounce/static/media/horseride.840d7bd0.JPG",
+    "static/media/minigolf.f44c13c7.JPG": "/golfandbounce/static/media/minigolf.f44c13c7.JPG",
+    "static/media/pricelist.98eb6e16.JPG": "/golfandbounce/static/media/pricelist.98eb6e16.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6089f2e4.js",
+    "static/css/2.f2512455.chunk.css",
+    "static/js/2.95ac10cb.chunk.js",
+    "static/css/main.2dfb8f62.chunk.css",
+    "static/js/main.d60968c5.chunk.js"
+  ]
+}
