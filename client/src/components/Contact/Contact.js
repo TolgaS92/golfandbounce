@@ -3,7 +3,7 @@ import './style.css';
 import ContactForm from '../ContactForm/ContactForm';
 import Map from '../Map/Map'
 
-const GOOGLE_MAP_API_KEY = 'AIzaSyAdls9Je91JPndY1Eoqic0rnksqB4_XMIU';
+const GOOGLE_MAP_API_KEY = '';
 const loadGoogleMapScript = (callback) => {
   if (typeof window.google === 'object' && typeof window.google.maps === 'object') {
     callback();
