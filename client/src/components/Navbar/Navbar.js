@@ -10,7 +10,7 @@ function Navbar () {
         <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div className="navbar-brand">
                 <Button component={Link} to="/golfandbounce">
-                    <img className={classes.icon} alt="sign" src={Sign} /><span className="text-warning">  Golf and Bounce</span></Button>
+                    <img className={classes.icon} alt="sign" src={Sign} /><span className="text-warning mr-2">  Golf and Bounce</span></Button>
             </div>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
