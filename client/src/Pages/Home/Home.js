@@ -10,7 +10,7 @@ export default function Home() {
                     <div className="col-lg-9 text-center">
                         <h2 className="text-center mt-0 about text-danger">Golf And Bounce</h2>
                         <hr className="divider my-4" color="#408eff" />
-                        <a href="/" className="grow btn btn-primary">Book a Birthday Party!</a>
+                        <a href="/golfandbounce" className="grow btn btn-primary">Book a Birthday Party!</a>
                         <hr className="divider my-4" color="#408eff" />
                     </div>
                 </div>

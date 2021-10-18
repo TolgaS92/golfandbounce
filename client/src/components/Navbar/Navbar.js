@@ -9,7 +9,7 @@ function Navbar () {
         <header>
         <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div className="navbar-brand">
-                <Button component={Link} to="/">
+                <Button component={Link} to="/golfandbounce">
                     <img className={classes.icon} alt="sign" src={Sign} /><span className="text-warning">  Golf and Bounce</span></Button>
             </div>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,7 +18,7 @@ function Navbar () {
             <div className="collapse navbar-collapse justify-content-end" id="navbarCollapse">
                 <ul className="navbar-nav mr-auto">
                 <li className="nav-item" align="left">
-                    <Button className={classes.button} component={Link} to="/">Home</Button>
+                    <Button className={classes.button} component={Link} to="/golfandbounce">Home</Button>
                 </li>
                 <li className="nav-item" align="left">
                     <Button className={classes.button} component={Link} to="/about">Information</Button>
