@@ -2,11 +2,10 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles((theme) => ({
   button: {
-    marginRight: '5px',
-    color: 'white'
+    marginLeft: '50px',
   },
   icon: {
   width: '100px',
-  height: '50px',
+  height: '40px',
 }
 }));
