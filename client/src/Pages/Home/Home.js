@@ -1,8 +1,10 @@
 import React from 'react';
 import Main from '../../components/Main/Main';
 import './style.css';
+import Calendly from '../../components/Calendly';
+
 export default function Home() {
-    let gapi = window.gapi
+    /* let gapi = window.gapi
 
     let CLIENT_ID = process.env.REACT_APP_CLIENT_ID
     let API_KEY = process.env.REACT_APP_API_KEY
@@ -28,15 +30,15 @@ export default function Home() {
             'location': '1 West Flatiron Crossing Dr. #1122, Broomfield, CO 80021',
             'description': 'Birthday Party',
             'start': {
-              'dateTime': '2015-05-28T09:00:00-07:00',
+              'dateTime': '2021-11-05T09:00:00-07:00',
               'timeZone': 'America/Denver'
             },
             'end': {
-              'dateTime': '2015-05-28T17:00:00-07:00',
+              'dateTime': '2021-11-05T17:00:00-07:00',
               'timeZone': 'America/Denver'
             },
             'recurrence': [
-              'RRULE:FREQ=DAILY;COUNT=2'
+              'RRULE:FREQ=DAILY;COUNT=1'
             ],
             'attendees': [
               {'email': 'lpage@example.com'},
@@ -56,24 +58,32 @@ export default function Home() {
           });
           
           request.execute(function(event) {
-            window.open('Event created: ' + event.htmlLink);
+            window.open(event.htmlLink);
           });
         })
     })
-    }
+    } */
     return (
-        <div className="mt-5 pt-5">
-            <section>
-            <div className="container">
-                <div className="row justify-content-center">
-                    <div className="col-lg-9 text-center">
-                        <h2 className="text-center mt-0 about text-danger">We Are Open!</h2>
-                        <button onClick={handleClick} className="grow btn btn-primary">Book a Birthday Party!</button>
+      <div className="mt-5 pt-5">
+      <section>
+      <div className="container">
+          <div className="row justify-content-center">
+              <div className="col-lg-9 text-center">
+                  <h2 className="text-center mt-0 about text-danger">We Are Open!</h2>
+                  {/* <button onClick={handleClick} className="grow btn btn-primary">Book a Birthday Party!</button> */}
+                  <div className="btn-group">
+                    <button type="button" className="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
+                      <span className="text">Book a Birthday Party!</span>
+                    </button>
+                    <div className="dropdown-menu">
+                      <button className="dropdown-item" ><Calendly /></button>
                     </div>
-                </div>
-            </div>
-            </section>
-            <Main className="align-content-sm-center" />
-        </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </section>
+      <Main className="align-content-sm-center" />
+      </div>
     )
 }
