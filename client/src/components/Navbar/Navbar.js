@@ -7,7 +7,7 @@ function Navbar () {
     const classes = useStyles();
     return(
         <header>
-        <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <nav className="navbar navbar-expand-md navbar-dark bg-dark">
             <div className="navbar-brand">
                 <Button component={Link} to="/golfandbounce">
                     <img className={classes.icon} alt="sign" src={Sign} /><span className="text-warning mr-2">  Golf and Bounce</span></Button>
