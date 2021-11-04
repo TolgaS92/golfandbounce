@@ -75,8 +75,8 @@ export default function Home() {
                     <button type="button" className="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
                       <span className="text">Book a Birthday Party!</span>
                     </button>
-                    <div className="dropdown-menu">
-                      <button className="dropdown-item mt-5" ><Calendly /></button>
+                    <div className="dropdown-menu mt-3 pt-3">
+                      <button className="dropdown-item"><Calendly /></button>
                     </div>
                   </div>
               </div>
