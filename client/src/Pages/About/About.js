@@ -7,17 +7,20 @@ export default function About() {
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-9 text-center">
-                        <h2 className="text-center mt-0 about">Golf and Bounce Price List</h2>
+                        <a href={PriceList} target="blank">
+                            <h2 className="text-center mt-3 about btn btn-outline-light">Golf and Bounce Price List</h2>
+                        </a>
                         <p>Located in Flatiron Malls</p>
                     </div>
-                    <img src={PriceList} className="d-block w-100 rounded mb-3 shadow-lg p-3 mb-5 bg-white" alt="priceList" />
+                    <img src={PriceList} className="d-block w-100 rounded mb-3 shadow-lg p-3 mb-5 bg-white img-thumbnail" alt="priceList" />
                 </div>
                 <div className="row justify-content-center">
                     <div className="col-lg-9 text-center">
-                        <h2 className="text-center mt-0 about">Birthday Party Price List</h2>
-                        <p>Located in Flatiron Malls</p>
+                        <a href={BirtdayPrice} target="blank">
+                            <h2 className="text-center mt-3 about btn btn-outline-light">Birthday Party Price List</h2>
+                        </a>
                     </div>
-                    <img src={BirtdayPrice} className="d-block w-100 mb-3 shadow-lg p-3 mb-5 bg-white rounded" alt="priceList" />
+                    <img src={BirtdayPrice} className="d-block w-100 mb-3 shadow-lg p-3 mb-5 bg-white rounded" alt="birthdayprice" />
                 </div>
             </div>
         </div>

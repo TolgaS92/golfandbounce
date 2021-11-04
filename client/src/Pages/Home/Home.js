@@ -71,7 +71,7 @@ export default function Home() {
               <div className="col-lg-9 text-center">
                   <h2 className="text-center mt-0 about text-danger">We Are Open!</h2>
                   {/* <button onClick={handleClick} className="grow btn btn-primary">Book a Birthday Party!</button> */}
-                  <div className="btn-group">
+                  <div className="btn">
                     <button type="button" className="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
                       <span className="text">Book a Birthday Party!</span>
                     </button>
@@ -79,6 +79,9 @@ export default function Home() {
                       <button className="dropdown-item bg-dark mt-5 pt-5"><Calendly /></button>
                     </div>
                   </div>
+                  <button className="btn btn-outline-warning">
+                    <a href="https://app.cleverwaiver.com/render/templateByRefId/5d1a6c6779e683000d283888" target="_blank" className="text-decoration-none" rel="noreferrer">Sign a Waiver</a>
+                  </button>
               </div>
           </div>
       </div>

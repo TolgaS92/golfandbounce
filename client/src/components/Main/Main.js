@@ -12,7 +12,7 @@ import img4 from './images/IMG_3122.JPG';
 
 function Main() {
     return (
-        <div className="container mt-5 mb-5">
+        <div className="container-fluid">
             <div id="carouselExampleInterval" className="carousel slide mt-3" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-interval="10000">

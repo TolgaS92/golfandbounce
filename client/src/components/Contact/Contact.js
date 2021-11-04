@@ -31,8 +31,8 @@ function Contact () {
                         <div className="container">
                             <h1 className="display-4 text-dark">Get In Touch</h1>
                             <p className="lead text-dark"><strong>Location:</strong> Inside Flatiron Crossing Mall</p>
-                            <p className="lead text-dark">1 West Flatiron Crossing Dr. #1122, Broomfield, CO 80021<br></br><span>(Next to California Pizza Kitchen)</span></p>
-                            <p className="lead text-dark"><strong>Phone:</strong> 333-333-3333</p>
+                            <a className="lead text-dark" target="_blank" href="http://maps.google.com/?q=1 West Flatiron Crossing Dr. #1122, Broomfield, CO 80021" rel="noreferrer">1 West Flatiron Crossing Dr. #1122, Broomfield, CO 80021<br></br><span>(Next to California Pizza Kitchen)</span></a>
+                            <a className="lead text-dark" href="tel:+13333333333"><br></br><strong>Phone:</strong>333-333-3333</a>
                         </div>
                     </div>
                     <div className="d-flex justify-content-center mb-3">
