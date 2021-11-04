@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/golfandbounce/static/css/main.2dfb8f62.chunk.css",
-    "main.js": "/golfandbounce/static/js/main.eb9d6290.chunk.js",
-    "main.js.map": "/golfandbounce/static/js/main.eb9d6290.chunk.js.map",
+    "main.js": "/golfandbounce/static/js/main.2a0af16d.chunk.js",
+    "main.js.map": "/golfandbounce/static/js/main.2a0af16d.chunk.js.map",
     "runtime-main.js": "/golfandbounce/static/js/runtime-main.6089f2e4.js",
     "runtime-main.js.map": "/golfandbounce/static/js/runtime-main.6089f2e4.js.map",
     "static/css/2.f2512455.chunk.css": "/golfandbounce/static/css/2.f2512455.chunk.css",
@@ -27,6 +27,6 @@
     "static/css/2.f2512455.chunk.css",
     "static/js/2.288906ff.chunk.js",
     "static/css/main.2dfb8f62.chunk.css",
-    "static/js/main.eb9d6290.chunk.js"
+    "static/js/main.2a0af16d.chunk.js"
   ]
 }
