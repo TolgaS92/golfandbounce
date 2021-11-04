@@ -40,8 +40,8 @@ function ContactForm() {
     return (
         <div className="container">
             <div className="row">
-                <h2 className="col-sm-12 mt-5 font-weight-bold text-dark">Contact with Golf and Bounce
-                <div className="spinner-grow text-dark" role="status"></div></h2>
+                <h2 className="col-sm-12 mt-5 font-weight-bold text-light">Contact with Golf and Bounce
+                <div className="spinner-grow text-light" role="status"></div></h2>
             </div>
             <section className="row">
                 <form className="col-lg-12" onSubmit={handleFormSubmit}>
