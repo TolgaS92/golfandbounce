@@ -15,7 +15,7 @@ function ContactForm() {
         } else {
             sendMessage(event)
             alert("Your message has been sent, thank you! and You are redirecting to Home Page!")
-            history.push('/PortfolioWithReact')
+            history.push('/golfandbounce')
         }
         setUserName()
         setUserEmail()
@@ -24,7 +24,7 @@ function ContactForm() {
 
     const sendMessage = event => {
         event.preventDefault();
-        emailjs.sendForm("service_m8jy76a","template_vadaq7i", event.target, "user_olJpBF2IFnl6C7aW08wLN",{
+        emailjs.sendForm("service_d8qtvwr","template_kvtw7ew", event.target, "user_IEY2B4qCo5pxM3M3TXhCk",{
             from_name: "",
             to_name: "",
             message: "",
