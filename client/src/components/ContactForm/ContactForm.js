@@ -24,7 +24,7 @@ function ContactForm() {
 
     const sendMessage = event => {
         event.preventDefault();
-        emailjs.sendForm("service_d8qtvwr","template_kvtw7ew", event.target, "user_IEY2B4qCo5pxM3M3TXhCk",{
+        emailjs.sendForm("service_9shcqmh","template_kvtw7ew", event.target, "user_IEY2B4qCo5pxM3M3TXhCk",{
             from_name: "",
             to_name: "",
             message: "",
