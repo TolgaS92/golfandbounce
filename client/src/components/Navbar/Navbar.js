@@ -21,7 +21,7 @@ function Navbar () {
                     <Button className={classes.button} component={Link} to="/golfandbounce">Home</Button>
                 </li>
                 <li className="nav-item" align="left">
-                    <Button className={classes.button} component={Link} to="/about">Information</Button>
+                    <Button className={classes.button} component={Link} to="/about">Pricing</Button>
                 </li>
                 <li className="nav-item" align="left">
                     <Button className={classes.button} component={Link} to="/contact">Contact</Button>

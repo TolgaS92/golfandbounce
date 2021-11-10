@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import './style.css';
 import ContactForm from '../ContactForm/ContactForm';
-import Map from '../Map/Map'
+import Map from '../Map/Map';
 
 const GOOGLE_MAP_API_KEY = process.env.REACT_APP_GOOGLE_MAP_API_KEY;
 const loadGoogleMapScript = (callback) => {
@@ -23,35 +22,28 @@ function Contact () {
     });
   }, []);
     return (
-        <section className="about-page mt-5 pt-5 mb-3" id="contact">
+        <section className="mt-5 pt-5 mb-3">
             <div className="container">
                 <div className="row justify-content-center">
-                    <div className="col-lg-6 text-center">
-                    <div className="jumbotron jumbotron-fluid mb-5 bg-light rounded p-3 m-3">
+                    <div className="col-lg-6 text-center animate__animated animate__backInLeft">
+                      <div className="jumbotron jumbotron-fluid mb-5 bg-light rounded p-3 m-3">
                         <div className="container">
                             <h1 className="display-4 text-dark">Get In Touch</h1>
                             <p className="lead text-dark"><strong>Location:</strong> Inside Flatiron Crossing Mall</p>
-                            <a className="lead text-dark" target="_blank" href="http://maps.google.com/?q=1 West Flatiron Crossing Dr. #1122, Broomfield, CO 80021" rel="noreferrer">1 West Flatiron Crossing Dr. #1122, Broomfield, CO 80021<br></br><span>(Next to California Pizza Kitchen)</span></a>
-                            <a className="lead text-dark" href="tel:+17208269487"><br></br><strong>Phone:</strong>720-826-9487</a>
+                            <p className="lead text-dark text-decoration-none">1 West Flatiron Crossing Dr. #1122, Broomfield, CO 80021<br></br><span>(Next to California Pizza Kitchen)</span></p>
+                            <button type="button" className="btn btn-outline-info rounded-pill">
+                            <a className="lead text-dark text-decoration-none" target="_blank" href="http://maps.google.com/?q=1 West Flatiron Crossing Dr. #1122, Broomfield, CO 80021" rel="noreferrer">Get Directions</a></button>
+                            <button type="button" className="btn btn-outline-info rounded-pill">
+                            <a className="lead text-dark text-decoration-none" href="tel:+17208269487">Make a Phone Call</a></button>
                         </div>
+                      </div>
                     </div>
-                    <div className="d-flex justify-content-center mb-3">
+                    <div className="col-lg-6 animate__animated animate__backInRight">
                     {!loadMap ? <div>Loading...</div> : <Map />}
                     </div>
-                        <div className="row">
-                            <div className="col-sm-6 ml-auto contact-btn">
-                                    <a className="text-decoration-none text-light" href="https://www.instagram.com/golfandbounce/" target="blank"><i className="fab fa-instagram fa-4x"></i>
-                                <p className="text-center">Instagram</p>
-                                </a>
-                            </div>
-                            <div className="col-sm-6 ml-auto contact-btn">
-                                <a className="text-decoration-none text-light" href="mailto:golfandbounce@gmail.com" target="blank"><i className="fas fa-envelope-open-text fa-4x"></i>
-                                <p className="text-center">Email</p>
-                                </a>
-                            </div>
-                            <ContactForm />
-                        </div>
-                    </div>
+                  </div>
+                <div className="row col-6 animate__animated animate__backInUp">
+                  <ContactForm />
                 </div>
             </div>
         </section>

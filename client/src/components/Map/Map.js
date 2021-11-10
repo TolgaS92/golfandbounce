@@ -27,7 +27,7 @@ const Map = () => {
  
   return <div
     ref={googleMapRef}
-    style={{ width: 600, height: 500 }}
+    style={{ width: 450, height: 350 }}
   />
 }
  

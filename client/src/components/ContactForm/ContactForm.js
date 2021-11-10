@@ -40,7 +40,7 @@ function ContactForm() {
     return (
         <div className="container">
             <div className="row">
-                <h2 className="col-sm-12 mt-5 font-weight-bold text-light">Contact with Golf and Bounce
+                <h2 className="col-sm-12 mt-5 font-weight-bold text-light">Contact
                 <div className="spinner-grow text-light" role="status"></div></h2>
             </div>
             <section className="row">
