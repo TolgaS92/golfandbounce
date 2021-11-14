@@ -16,7 +16,7 @@ function Navbar () {
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-                <ul className="navbar-nav mr-auto">
+                <ul className="navbar-nav mr-auto flex-row ms-md-auto">
                 <li className="nav-item" align="left">
                     <Button className={classes.button} component={Link} to="/golfandbounce">Home</Button>
                 </li>
@@ -26,6 +26,18 @@ function Navbar () {
                 <li className="nav-item" align="left">
                     <Button className={classes.button} component={Link} to="/contact">Contact</Button>
                 </li>
+                </ul>
+                <hr className="d-md-none text-white"></hr>
+                <ul className="d-flex justify-content-center navbar-nav ml-auto flex-row animate__animated animate__bounce">
+                <a href="https://www.instagram.com/golfandbounce/" target="_blank" rel="noreferrer">
+                    <i className="fab fa-instagram grow fa-2x text-primary"></i>
+                </a>
+                <a href="https://www.facebook.com/GolfAndBounce" target="_blank" rel="noreferrer">
+                    <li className="fab fa-facebook grow fa-2x text-primary"></li>
+                </a>
+                <a href="mailto:golfandbounce@gmail.com" target="_blank" rel="noreferrer">
+                    <i className="fas fa-envelope-open-text grow fa-2x text-primary"></i>
+                </a>
                 </ul>
             </div>
         </nav>

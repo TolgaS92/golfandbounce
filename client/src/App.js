@@ -4,7 +4,6 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
 import Contact from "./components/Contact/Contact";
-import Socials from "./components/Socials";
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
         <Route exact path="/about" component={About}/>
         <Route exact path="/contact" component={Contact}/>
       </Switch>
-      <Socials />
     </BrowserRouter>
   );
 }
